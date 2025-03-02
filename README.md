@@ -77,7 +77,7 @@ python -m app.main
 
 #### cURL Example:
 ```bash
-curl -X POST "http://127.0.0.1:8000/order/" -H "Content-Type: application/json" -d '{
+curl -X POST "https://e-commerce-app-oky7.onrender.com/order/" -H "Content-Type: application/json" -d '{
     "order_id": "123",
     "user_id": "user_1",
     "item_ids": "item_1,item_2",
@@ -99,7 +99,7 @@ curl -X POST "http://127.0.0.1:8000/order/" -H "Content-Type: application/json" 
 
 #### cURL Example:
 ```bash
-curl -X GET "http://127.0.0.1:8000/order/123"
+curl -X GET "https://e-commerce-app-oky7.onrender.com/order/123"
 ```
 
 ---
@@ -118,7 +118,7 @@ curl -X GET "http://127.0.0.1:8000/order/123"
 
 #### cURL Example:
 ```bash
-curl -X GET "http://127.0.0.1:8000/metrics/"
+curl -X GET "https://e-commerce-app-oky7.onrender.com/metrics/"
 ```
 
 ---
